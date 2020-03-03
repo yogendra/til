@@ -41,7 +41,7 @@ I read thrrough regular places (so, google, k8s docs, etc.) and stumbled upon bi
 
 Turns out I need to execute kubectl in the job to do what I need. 
 
-```
+```yaml
 apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
